@@ -1,1 +1,1 @@
-console.log("Hello from external JavaScript file!");
+console.log("Hello,JavaScript!")
