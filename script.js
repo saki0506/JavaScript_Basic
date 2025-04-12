@@ -1,9 +1,9 @@
-const name ="John";
-const age = 30;
-const isMarried = false;
-const favoriteColors = ["blue","green","red"];
+let age = 65;
 
-console.log(typeof name);
-console.log(typeof age);
-console.log(typeof isMarried);
-console.log(typeof favoriteColors);
+if (age<20){
+  console.log("未成年");
+} else if (age >=20 && age <60) {
+  console.log("成人")
+} else {
+  console.log("シニア")
+}
